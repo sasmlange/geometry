@@ -2,6 +2,21 @@ name: Sphinx Make HTML
 run-name: ${{ github.actor }} is building the HTML
 on: [push]
 jobs:
+  Install-Drawio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        name: Get drawio
+        with:
+          repository: jgraph/drawio
+          ref: refs/tags/v13.11.0
+      - name: Instaling drawio
+        timeout-minutes: 3
+        run: |
+          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+          cd src/main/webapp
+          yarn install
+          npm start -- --help
   Install-Compile-Commit:
       runs-on: ubuntu-latest
       steps:
