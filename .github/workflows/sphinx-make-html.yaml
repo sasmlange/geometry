@@ -27,6 +27,6 @@ jobs:
             git config --local user.email "actions@github.com"
             if ! git diff --exit-code; then
                 git add -A
-                git commit -am "GH Action Files added $(date)"
+                git commit -am "Automatic Sphinx build on $(date)"
                 git push -f origin main
             fi
