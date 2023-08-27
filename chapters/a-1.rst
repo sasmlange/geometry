@@ -1,0 +1,69 @@
+Chapter 1: Tools of Geometry 
+===================================
+
+1.1: Points, Lines, and Planes
+-----------------------------------
+.. rubric:: Vocabulary
+
+| A **point** is a single point that is zero dimensional.
+| A **line segment** extends from one point (endpoint) to another point.
+| A **line** extends from infinitely in two directions and can be referred by a line segment (two points) on the line.
+| A **ray** is a line that extends from one point (endpoint) to infinity in one directions
+| A **plane** is flat surface (like a paper) that extends to infinity. It is often portrayed as a parallelogram. Can be referred to by three points on the plane.
+| Two lines or planes that are **parallel** never meet or intersect
+| Two lines or planes that are **perpendicular** meet or intersect at a :math:`90^{\circ}` angle. 
+
+.. rubric:: Visual Planes, Points, Lines, and Rays
+
+.. drawio-image:: diagrams/11-plane_line_ray_point.drawio
+
+Line segment :math:`\overline{AB}` lies on line :math:`l` which can be referred to as line :math:`\overleftrightarrow{AB}`. line :math:`l` and line :math:`y` meet at point :math:`E`. Ray :math:`z` (or :math:`\overrightarrow{BE}`) originates at point :math:`B`. Everything is on plane :math:`x` (or plane :math:`FCD`). 
+
+.. rubric:: Intersecting Planes
+
+Two lines meet at a point while two planes meet at a line. 
+
+.. drawio-image:: diagrams/11-2_planes_meeting.drawio
+
+Plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`.
+
+.. note::
+
+    Remember that planes, like lines, extend forever. Therefore planes meet at lines, not at line segments as it might appear from the visual. In this example, plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`, not at :math:`\overline{IJ}`.
+
+1.2: Line Segments and Distance
+------------------------------------
+
+
+1.3: Locating Points and Midpoints
+---------------------------------------
+
+
+1.4: Angle Measure
+-----------------------
+
+
+1.5: Angle Relationships
+-----------------------------
+
+
+1.6: Two-Dimensional Figures
+---------------------------------
+
+
+1.7: Transformations in the Plane
+--------------------------------------
+
+
+1.8: Three-Dimensional Figures
+-----------------------------------
+
+
+1.9: Two-Dimensional Representations of Three-Dimensional Figures
+----------------------------------------------------------------------
+
+
+1.10: Precision and Accuracy
+---------------------------------
+
+

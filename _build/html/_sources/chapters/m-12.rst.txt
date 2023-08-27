@@ -1,0 +1,35 @@
+Chapter 12: Probability 
+==============================
+
+12.1: Representing Sample Spaces
+-------------------------------------
+
+
+12.2: Probability and Counting
+-----------------------------------
+
+
+12.3: Probability with Permutations and Combinations
+---------------------------------------------------------
+
+
+12.4: Geometric Probability
+--------------------------------
+
+
+12.5: Probability and the Multiplication Rule
+--------------------------------------------------
+
+
+12.6: Probability and the Addition Rule
+--------------------------------------------
+
+
+12.7: Conditional Probability
+----------------------------------
+
+
+12.8: Two-Way Frequency Tables
+-----------------------------------
+
+

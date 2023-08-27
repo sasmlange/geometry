@@ -1,0 +1,43 @@
+Chapter 2: Logical Arguments and Line Relationships 
+==========================================================
+
+2.1: Conjectures and Counterexamples
+-----------------------------------------
+
+
+2.2: Statements, Conditionals, and Biconditionals
+------------------------------------------------------
+
+
+2.3: Deductive Reasoning
+-----------------------------
+
+
+2.4: Writing Proofs
+------------------------
+
+
+2.5: Proving Segment Relationships
+---------------------------------------
+
+
+2.6: Proving Angle Relationships
+-------------------------------------
+
+
+2.7: Parallel Lines and Transversals
+-----------------------------------------
+
+
+2.8: Slope and Equations of Lines
+--------------------------------------
+
+
+2.9: Proving Lines Parallel
+--------------------------------
+
+
+2.10: Perpendiculars and Distance
+--------------------------------------
+
+

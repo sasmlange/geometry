@@ -1,0 +1,31 @@
+Chapter 4: Triangles and Congruence 
+==========================================
+
+4.1: Angles of Triangles
+-----------------------------
+
+
+4.2: Congruent Triangles
+-----------------------------
+
+
+4.3: Proving Triangles Congruent - SSS, SAS
+------------------------------------------------
+
+
+4.4: Proving Triangles Congruent - ASA, AAS
+------------------------------------------------
+
+
+4.5: Proving Right Triangles Congruent
+-------------------------------------------
+
+
+4.6: Isosceles and Equilateral Triangles
+---------------------------------------------
+
+
+4.7: Triangles and Coordinate Proof
+----------------------------------------
+
+

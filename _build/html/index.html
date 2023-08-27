@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Geometry Notes &#8212; Geometry Notes</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/drawio.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Chapter 1: Tools of Geometry" href="chapters/a-1.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="#">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Geometry Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Contents:
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/a-1.html">
+   Chapter 1: Tools of Geometry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/b-2.html">
+   Chapter 2: Logical Arguments and Line Relationships
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/c-3.html">
+   Chapter 3: Rigid Transformations and Symmetry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/d-4.html">
+   Chapter 4: Triangles and Congruence
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/e-5.html">
+   Chapter 5: Relationships in Triangles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/f-6.html">
+   Chapter 6: Quadrilaterals
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/g-7.html">
+   Chapter 7: Similarity
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/h-8.html">
+   Chapter 8: Right Triangles and Trigonometry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/i-9.html">
+   Chapter 9: Circles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/k-10.html">
+   Chapter 10: Extending Area
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/l-11.html">
+   Chapter 11: Extending Volume
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/m-12.html">
+   Chapter 12: Probability
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/index.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Geometry Notes</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section id="geometry-notes">
+<h1>Geometry Notes<a class="headerlink" href="#geometry-notes" title="Permalink to this headline">#</a></h1>
+<p>These are my notes for my Geometry Class according to <em>Geometry Student Edition CCSS</em>.</p>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="chapters/a-1.html">Chapter 1: Tools of Geometry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#points-lines-and-planes">1.1: Points, Lines, and Planes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#line-segments-and-distance">1.2: Line Segments and Distance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#locating-points-and-midpoints">1.3: Locating Points and Midpoints</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#angle-measure">1.4: Angle Measure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#angle-relationships">1.5: Angle Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#two-dimensional-figures">1.6: Two-Dimensional Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#transformations-in-the-plane">1.7: Transformations in the Plane</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#three-dimensional-figures">1.8: Three-Dimensional Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#two-dimensional-representations-of-three-dimensional-figures">1.9: Two-Dimensional Representations of Three-Dimensional Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/a-1.html#precision-and-accuracy">1.10: Precision and Accuracy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/b-2.html">Chapter 2: Logical Arguments and Line Relationships</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#conjectures-and-counterexamples">2.1: Conjectures and Counterexamples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#statements-conditionals-and-biconditionals">2.2: Statements, Conditionals, and Biconditionals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#deductive-reasoning">2.3: Deductive Reasoning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#writing-proofs">2.4: Writing Proofs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#proving-segment-relationships">2.5: Proving Segment Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#proving-angle-relationships">2.6: Proving Angle Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#parallel-lines-and-transversals">2.7: Parallel Lines and Transversals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#slope-and-equations-of-lines">2.8: Slope and Equations of Lines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#proving-lines-parallel">2.9: Proving Lines Parallel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/b-2.html#perpendiculars-and-distance">2.10: Perpendiculars and Distance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/c-3.html">Chapter 3: Rigid Transformations and Symmetry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/c-3.html#reflections">3.1: Reflections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/c-3.html#translations">3.2: Translations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/c-3.html#rotations">3.3: Rotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/c-3.html#compositions-of-transformations">3.4: Compositions of Transformations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/c-3.html#symmetry">3.5: Symmetry</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/d-4.html">Chapter 4: Triangles and Congruence</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#angles-of-triangles">4.1: Angles of Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#congruent-triangles">4.2: Congruent Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#proving-triangles-congruent-sss-sas">4.3: Proving Triangles Congruent - SSS, SAS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#proving-triangles-congruent-asa-aas">4.4: Proving Triangles Congruent - ASA, AAS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#proving-right-triangles-congruent">4.5: Proving Right Triangles Congruent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#isosceles-and-equilateral-triangles">4.6: Isosceles and Equilateral Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/d-4.html#triangles-and-coordinate-proof">4.7: Triangles and Coordinate Proof</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/e-5.html">Chapter 5: Relationships in Triangles</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/e-5.html#bisectors-of-triangles">5.1: Bisectors of Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/e-5.html#medians-and-altitudes-of-triangles">5.2: Medians and Altitudes of Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/e-5.html#inequalities-in-one-triangle">5.3: Inequalities in One Triangle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/e-5.html#indirect-proof">5.4: Indirect Proof</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/e-5.html#the-triangle-inequality">5.5: The Triangle Inequality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/e-5.html#inequalities-in-two-triangles">5.6: Inequalities in Two Triangles</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/f-6.html">Chapter 6: Quadrilaterals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/f-6.html#angles-of-polygons">6.1: Angles of Polygons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/f-6.html#parallelograms">6.2: Parallelograms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/f-6.html#tests-for-parallelograms">6.3: Tests for Parallelograms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/f-6.html#special-parallelograms-rectangles">6.4: Special Parallelograms: Rectangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/f-6.html#special-parallelograms-rhombi-squares">6.5: Special Parallelograms: Rhombi, Squares</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/f-6.html#trapezoids-and-kites">6.6: Trapezoids and Kites</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/g-7.html">Chapter 7: Similarity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/g-7.html#dilations">7.1: Dilations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/g-7.html#similar-polygons">7.2: Similar Polygons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/g-7.html#similar-triangles-aa-similarity">7.3: Similar Triangles: AA Similarity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/g-7.html#similar-triangles-sss-and-sas-similarity">7.4: Similar Triangles: SSS and SAS Similarity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/g-7.html#parallel-lines-and-proportional-parts">7.5: Parallel Lines and Proportional Parts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/g-7.html#parts-of-similar-triangles">7.6: Parts of Similar Triangles</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/h-8.html">Chapter 8: Right Triangles and Trigonometry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#geometric-mean">8.1: Geometric Mean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#the-pythagorean-theorem-and-its-converse">8.2: The Pythagorean Theorem and Its Converse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#special-right-triangles">8.3: Special Right Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#trigonometry">8.4: Trigonometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#angles-of-elevation-and-depression">8.5: Angles of Elevation and Depression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#the-law-of-sines">8.6: The Law of Sines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/h-8.html#the-law-of-cosines">8.7: The Law of Cosines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/i-9.html">Chapter 9: Circles</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#circles-and-circumference">9.1: Circles and Circumference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#measuring-angles-and-arcs">9.2: Measuring Angles and Arcs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#arcs-and-chords">9.3: Arcs and Chords</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#inscribed-angles">9.4: Inscribed Angles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#tangents">9.5: Tangents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#secants-tangents-and-angle-measures">9.6: Secants, Tangents, and Angle Measures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#equations-of-circles">9.7: Equations of Circles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/i-9.html#equations-of-parabolas">9.8: Equations of Parabolas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/k-10.html">Chapter 10: Extending Area</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/k-10.html#areas-of-parallelograms-and-triangles">10.1: Areas of Parallelograms and Triangles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/k-10.html#areas-of-trapezoids-rhombi-and-kites">10.2: Areas of Trapezoids, Rhombi, and Kites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/k-10.html#areas-of-circles-and-sectors">10.3: Areas of Circles and Sectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/k-10.html#areas-of-regular-polygons-and-composite-figures">10.4: Areas of Regular Polygons and Composite Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/k-10.html#area-and-nonrigid-transformations">10.5: Area and Nonrigid Transformations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/k-10.html#surface-area">10.6: Surface Area</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/l-11.html">Chapter 11: Extending Volume</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#cross-sections-and-solids-of-revolution">11.1: Cross Sections and Solids of Revolution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#volumes-of-prisms-and-cylinders">11.2: Volumes of Prisms and Cylinders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#volumes-of-pyramids-and-cones">11.3: Volumes of Pyramids and Cones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#spheres">11.4: Spheres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#spherical-geometry">11.5: Spherical Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#volume-and-nonrigid-transformations">11.6: Volume and Nonrigid Transformations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/l-11.html#applying-measurements">11.7: Applying Measurements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapters/m-12.html">Chapter 12: Probability</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#representing-sample-spaces">12.1: Representing Sample Spaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#probability-and-counting">12.2: Probability and Counting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#probability-with-permutations-and-combinations">12.3: Probability with Permutations and Combinations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#geometric-probability">12.4: Geometric Probability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#probability-and-the-multiplication-rule">12.5: Probability and the Multiplication Rule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#probability-and-the-addition-rule">12.6: Probability and the Addition Rule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#conditional-probability">12.7: Conditional Probability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters/m-12.html#two-way-frequency-tables">12.8: Two-Way Frequency Tables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="chapters/a-1.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Chapter 1: Tools of Geometry</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Max Lange<br/>
+  
+      &copy; Copyright 2023, Max Lange.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

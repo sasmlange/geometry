@@ -1,0 +1,27 @@
+Chapter 10: Extending Area 
+=================================
+
+10.1: Areas of Parallelograms and Triangles
+------------------------------------------------
+
+
+10.2: Areas of Trapezoids, Rhombi, and Kites
+-------------------------------------------------
+
+
+10.3: Areas of Circles and Sectors
+---------------------------------------
+
+
+10.4: Areas of Regular Polygons and Composite Figures
+----------------------------------------------------------
+
+
+10.5: Area and Nonrigid Transformations
+--------------------------------------------
+
+
+10.6: Surface Area
+-----------------------
+
+

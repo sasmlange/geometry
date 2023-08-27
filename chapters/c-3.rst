@@ -1,0 +1,23 @@
+Chapter 3: Rigid Transformations and Symmetry 
+====================================================
+
+3.1: Reflections
+---------------------
+
+
+3.2: Translations
+----------------------
+
+
+3.3: Rotations
+-------------------
+
+
+3.4: Compositions of Transformations
+-----------------------------------------
+
+
+3.5: Symmetry
+------------------
+
+

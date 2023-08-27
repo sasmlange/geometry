@@ -1,0 +1,31 @@
+Chapter 11: Extending Volume 
+===================================
+
+11.1: Cross Sections and Solids of Revolution
+--------------------------------------------------
+
+
+11.2: Volumes of Prisms and Cylinders
+------------------------------------------
+
+
+11.3: Volumes of Pyramids and Cones
+----------------------------------------
+
+
+11.4: Spheres
+------------------
+
+
+11.5: Spherical Geometry
+-----------------------------
+
+
+11.6: Volume and Nonrigid Transformations
+----------------------------------------------
+
+
+11.7: Applying Measurements
+--------------------------------
+
+
