@@ -6,7 +6,7 @@
 Geometry Notes
 ==========================================
 
-These are my notes for my Geometry Class according to *Geometry Student Edition CCSS*.
+These are my notes for my Geometry Class according to the textbook *Geometry Student Edition CCSS*.
 
 .. toctree::
    :maxdepth: 2
