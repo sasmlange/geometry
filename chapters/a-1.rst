@@ -31,6 +31,9 @@ Plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`.
 
     Remember that planes, like lines, extend forever. Therefore planes meet at lines, not at line segments as it might appear from the visual. In this example, plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`, not at :math:`\overline{IJ}`.
 
+TODO: Watch IXL video for more notes
+TODO: Packet
+
 1.2: Line Segments and Distance
 ------------------------------------
 
