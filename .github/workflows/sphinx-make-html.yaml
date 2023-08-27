@@ -5,14 +5,14 @@ jobs:
   Install-Compile-Commit:
       runs-on: ubuntu-latest
       steps:
-      - name: Instaling drawio
-        timeout-minutes: 3
-        run: |
-          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-          sudo mkdir /run/user/1001
-          sudo chmod -R 777 /run/user/1001
-          sudo snap install drawio
-          drawio --help
+        - name: Instaling drawio
+          timeout-minutes: 3
+          run: |
+            Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+            sudo mkdir /run/user/1001
+            sudo chmod -R 777 /run/user/1001
+            sudo snap install drawio
+            drawio --help
         - uses: actions/checkout@v3
         - uses: actions/setup-python@v4
           with:
