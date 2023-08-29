@@ -31,11 +31,46 @@ Plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`.
 
     Remember that planes, like lines, extend forever. Therefore planes meet at lines, not at line segments as it might appear from the visual. In this example, plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`, not at :math:`\overline{IJ}`.
 
-TODO: Watch IXL video for more notes
-TODO: Packet
+
 
 1.2: Line Segments and Distance
 ------------------------------------
+
+.. rubric:: Vocabulary
+
+| A **congruent** line segment is the same length as another line segment. More information below.
+
+
+.. rubric:: Additive property of length
+
+.. drawio:: diagrams/22-congruent_line_segments.drawio
+
+According to the additive property of length, :math:`\overline{AB} + \overline{BC} = \overline{AC}` 
+
+.. rubric:: Distance Formula
+
+This is used to find the distance between two points on a coordinate plane. This formula is not actually a formula as it states to simply use the Pythagorean theorem to solve (:math:`rise^2 + run^2 = distance^2`). 
+
+.. rubric:: Finding a Line Segment Length with Algebra
+
+**Example Question: Find the value of x and RS if S is between R and T if :math:`RS = 5x, ST = 3x, RT = 48`**
+
+We first find x:
+
+.. math:: 
+
+    \overline{RS} + \overline{ST} &= \overline{RT} \\
+    5x + 3x &= 48 \\
+    8x &= 48 \\
+    x &= 6 \\
+
+We can then find :math:`\overline{RS}` with :math:`x \cdot 5 = 30`.
+
+.. rubric:: Congruent Line Segments
+
+.. drawio-image:: diagrams/22-congruent_line_segments.drawio
+
+In the image, :math:`\overline{AB}` is congruent with :math:`\overline{BC}` as they are both the same length. In fancy terms thats :math:`\overline{AB} \cong \overline{BC}`.
 
 
 1.3: Locating Points and Midpoints
