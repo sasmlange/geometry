@@ -43,7 +43,7 @@ Plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`.
 
 .. rubric:: Additive property of length
 
-.. drawio:: diagrams/22-congruent_line_segments.drawio
+.. drawio-image:: diagrams/22-congruent_line_segments.drawio
 
 According to the additive property of length, :math:`\overline{AB} + \overline{BC} = \overline{AC}` 
 
