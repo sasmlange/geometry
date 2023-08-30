@@ -75,7 +75,40 @@ In the image, :math:`\overline{AB}` is congruent with :math:`\overline{BC}` as t
 
 1.3: Locating Points and Midpoints
 ---------------------------------------
+.. rubric:: Vocabulary
 
+| A **midpoint** is a point in the middle of a line segment or coordinate plane.
+
+.. rubric:: Finding the Midpoint
+
+Formula for finding the midpoint on a line segment:
+.. math:: 
+
+    \frac{x_{1} + x_{2}}{2}
+
+.. .. tip::
+
+    A bit like finding an average for a dataset
+
+Formula for finding the midpoint on a line on a coordinate plane:
+
+.. math:: 
+
+    (\frac{x_{1} + x_{2}}{2}, \frac{x_{1} + x_{2}}{2})
+
+For example for the points (0, 0) and (12, 8):
+
+.. math:: 
+    midpoint &= (\frac{0 + 12}{2}, \frac{0 + 8}{2}) \\
+    midpoint &= (6, 2)
+
+(6, 2) is the coordinate for the midpoint.
+
+.. rubric:: Distance Formula
+
+This is used to find the distance between two points on a coordinate plane. This formula is not actually a formula as it states to simply use the Pythagorean theorem to solve (:math:`rise^2 + run^2 = distance^2`). 
+
+    
 
 1.4: Angle Measure
 -----------------------
