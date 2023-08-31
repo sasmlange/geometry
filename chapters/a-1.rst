@@ -53,7 +53,7 @@ This is used to find the distance between two points on a coordinate plane. This
 
 .. rubric:: Finding a Line Segment Length with Algebra
 
-**Example Question: Find the value of x and RS if S is between R and T if :math:`RS = 5x, ST = 3x, RT = 48`**
+**Example Question: Find the value of x and RS if S is between R and T if** :math:`RS = 5x, ST = 3x, RT = 48`
 
 We first find x:
 
