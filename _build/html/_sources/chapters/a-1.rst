@@ -107,7 +107,7 @@ For example for the points (0, 0) and (12, 8):
 
 .. rubric:: Distance Formula
 
-This is used to find the distance between two points on a coordinate plane. This formula is not actually a formula as it states to simply use the Pythagorean theorem to solve (:math:`rise^2 + run^2 = distance^2`). 
+This is used to find the distance between two points on a coordinate plane. This formula is not actually a formula as it states to simply use the Pythagorean theorem to solve (:math:`rise^2 + run^2 = distance^2`). This can also be expressed as :math:`(x_{1} - x_{2})
 
     
 
