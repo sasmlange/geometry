@@ -43,7 +43,7 @@ Plane :math:`FEH` meets plane :math:`ABC` at :math:`\overleftrightarrow{IJ}`.
 
 .. rubric:: Additive property of length
 
-.. drawio-image:: diagrams/22-congruent_line_segments.drawio
+.. drawio-image:: diagrams/12-congruent_line_segments.drawio
 
 According to the additive property of length, :math:`\overline{AB} + \overline{BC} = \overline{AC}` 
 
@@ -68,7 +68,7 @@ We can then find :math:`\overline{RS}` with :math:`x \cdot 5 = 30`.
 
 .. rubric:: Congruent Line Segments
 
-.. drawio-image:: diagrams/22-congruent_line_segments.drawio
+.. drawio-image:: diagrams/12-congruent_line_segments.drawio
 
 In the image, :math:`\overline{AB}` is congruent with :math:`\overline{BC}` as they are both the same length. In fancy terms thats :math:`\overline{AB} \cong \overline{BC}`.
 
@@ -114,6 +114,41 @@ This is used to find the distance between two points on a coordinate plane. This
 1.4: Angle Measure
 -----------------------
 
+ .. rubric:: Vocabulary
+
+| An **acute** angle is an angle that is less than :math:`90^{\circ}`
+| An **obtuse** angle is an angle that is less than :math:`180^{\circ}` and greater than :math:`90^{\circ}`
+| A **right** angle is an angle that is :math:`90^{\circ}`
+| A **side** of an angle is the two rays that for the angle
+| A **vertex** is a common endpoint of rays/sides
+| **Congruent angles** are angles that has the same length 
+| An **angle bisector** is a ray that spits an angle into two congruent angles.
+
+.. note:: 
+
+    You can refer to an angle by a point on both sides and the vertex
+
+.. rubric:: Finding the vertex
+
+.. drawio-image:: diagrams/14-vertex-finding.drawio
+
+If we want to find the vertex for :math:`\angle 1`, we first check what sides make up :math:`\angle 1`. In this figure, :math:`\overrightarrow{AC}` and :math:`\overrightarrow{AB}` make up the angle. The common meeting point or vertex is at point :math:`A`.
+
+
+.. rubric:: Solving x from Angle Bisector
+
+.. drawio-image:: diagrams/bisect_angle_algebra.drawio
+If :math:`m \angle ABE = 60` and  :math:`m \angle ABD = 4x + 14`, what is x?
+
+Knowing that :math:`\angle ABD` bisects :math:`\angle ABE`:
+
+.. math:: 
+
+    2(4x + 14) &= 60  \\
+    4x + 14 &= 30 \\
+    4x &= 16 \\
+    x &= 4
+    
 
 1.5: Angle Relationships
 -----------------------------
