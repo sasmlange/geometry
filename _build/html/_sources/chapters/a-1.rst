@@ -53,7 +53,7 @@ This is used to find the distance between two points on a coordinate plane. This
 
 .. rubric:: Finding a Line Segment Length with Algebra
 
-**Example Question: Find the value of x and RS if S is between R and T if :math:`RS = 5x, ST = 3x, RT = 48`**
+**Example Question: Find the value of x and RS if S is between R and T if** :math:`RS = 5x, ST = 3x, RT = 48`
 
 We first find x:
 
@@ -82,11 +82,12 @@ In the image, :math:`\overline{AB}` is congruent with :math:`\overline{BC}` as t
 .. rubric:: Finding the Midpoint
 
 Formula for finding the midpoint on a line segment:
+
 .. math:: 
 
     \frac{x_{1} + x_{2}}{2}
 
-.. .. tip::
+.. tip::
 
     A bit like finding an average for a dataset
 
@@ -106,7 +107,7 @@ For example for the points (0, 0) and (12, 8):
 
 .. rubric:: Distance Formula
 
-This is used to find the distance between two points on a coordinate plane. This formula is not actually a formula as it states to simply use the Pythagorean theorem to solve (:math:`rise^2 + run^2 = distance^2`). 
+This is used to find the distance between two points on a coordinate plane. This formula is not actually a formula as it states to simply use the Pythagorean theorem to solve (:math:`rise^2 + run^2 = distance^2`). This can also be expressed as :math:`(x_{1} - x_{2})
 
     
 
