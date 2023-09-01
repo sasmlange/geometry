@@ -114,7 +114,7 @@ This is used to find the distance between two points on a coordinate plane. This
 1.4: Angle Measure
 -----------------------
 
- .. rubric:: Vocabulary
+.. rubric:: Vocabulary
 
 | An **acute** angle is an angle that is less than :math:`90^{\circ}`
 | An **obtuse** angle is an angle that is less than :math:`180^{\circ}` and greater than :math:`90^{\circ}`
@@ -130,7 +130,7 @@ This is used to find the distance between two points on a coordinate plane. This
 
 .. rubric:: Finding the vertex
 
-.. drawio-image:: diagrams/14-vertex-finding.drawio
+.. drawio-image:: diagrams/14-vertex_finding.drawio
 
 If we want to find the vertex for :math:`\angle 1`, we first check what sides make up :math:`\angle 1`. In this figure, :math:`\overrightarrow{AC}` and :math:`\overrightarrow{AB}` make up the angle. The common meeting point or vertex is at point :math:`A`.
 
