@@ -198,7 +198,7 @@ For a need to find a missing angle from a pair of the angles mentioned above. Fo
 .. rubric:: Perimeter and Area
 
 | Area is :math:`length \cdot width` 
-| Perimeter is :math:`length \cdot 2 * width \cdot 2`
+| Perimeter is :math:`length \cdot 2 + width \cdot 2`
 
 .. rubric:: Circumference and Area of a Circle
 
