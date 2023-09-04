@@ -138,6 +138,7 @@ If we want to find the vertex for :math:`\angle 1`, we first check what sides ma
 .. rubric:: Solving x from Angle Bisector
 
 .. drawio-image:: diagrams/14-bisect_angle_algebra.drawio
+
 If :math:`m \angle ABE = 60` and  :math:`m \angle ABD = 4x + 14`, what is x?
 
 Knowing that :math:`\angle ABD` bisects :math:`\angle ABE`:
@@ -162,9 +163,9 @@ Knowing that :math:`\angle ABD` bisects :math:`\angle ABE`:
 
 .. rubric:: Examples
 
-.. dawio-image:: diagrams/15-angle_relationships_types.drawio
+.. drawio-image:: diagrams/15-angle_relationships_types.drawio
 
-:math:`\angle ADB` and :math:`\angle BDE` are complementary angles. :math:`\angle ADC` and :math:`\angle ADE`are supplementary angles. :math:`\angle EDG` and :math:`\angle ADC` are congruent angles. :math:`\angle EDF` and :math:`\angle BDC` are vertical angles. :math:`\angle FDG` and :math:`\angle EDG` are adjacent angles.
+:math:`\angle ADB` and :math:`\angle BDE` are complementary angles. :math:`\angle ADC` and :math:`\angle ADE` are supplementary angles. :math:`\angle EDG` and :math:`\angle ADC` are congruent angles. :math:`\angle EDF` and :math:`\angle BDC` are vertical angles. :math:`\angle FDG` and :math:`\angle EDG` are adjacent angles.
 
 .. rubric:: Calculating Tips
 
