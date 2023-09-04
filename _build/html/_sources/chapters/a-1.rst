@@ -152,10 +152,63 @@ Knowing that :math:`\angle ABD` bisects :math:`\angle ABE`:
 
 1.5: Angle Relationships
 -----------------------------
+.. rubric:: Vocabulary
+
+| Two **complementary angles** add up :math:`90^{\circ}`.
+| Two **supplementary angles** add up :math:`180^{\circ}`. 
+| **Congruent angles** have the same measure.
+| **Vertical angles** are opposite angles formed when two lines intersect, always congruent.
+| Two **adjacent angles** share a vertex and one side.
+
+.. rubric:: Examples
+
+.. dawio-image:: diagrams/15-angle_relationships_types.drawio
+
+:math:`\angle ADB` and :math:`\angle BDE` are complementary angles. :math:`\angle ADC` and :math:`\angle ADE`are supplementary angles. :math:`\angle EDG` and :math:`\angle ADC` are congruent angles. :math:`\angle EDF` and :math:`\angle BDC` are vertical angles. :math:`\angle FDG` and :math:`\angle EDG` are adjacent angles.
+
+.. rubric:: Calculating Tips
+
+For a need to find a missing angle from a pair of the angles mentioned above. For the examples below *x* is the given angle and *y* is the angle the you need to find.
+
+| **Complementary Angles:** :math:`y = 90 - x`
+| **Supplementary Angles:** :math:`y = 180 - x`
+| **Congruent Angles:** :math:`y = x` 
+| **Vertical Angles:** :math:`y = x`
 
 
 1.6: Two-Dimensional Figures
 ---------------------------------
+.. rubric:: Vocabulary
+
+| A **polygon** is any closed straight sided figure
+| A **triangle** has 3 sides and angles.
+| A **quadrilaterals** has 4 sides and angles.
+| A **pentagon** has 5 sides and angles.
+| A **hexagon** has 6 sides and angles.
+| A **heptagon** has 7 sides and angles.
+| A **octagon** has 8 sides and angles.
+| A **nonagon** has 9 sides and angles.
+| A **decagon** has 10 sides and angles.
+| A **dodecagon** has 12 sides and angles.
+| All sides and angles of a **regular polygon** are the same.
+| Not all sides and angles of a **regular polygon** are the same.
+| A **convex** does not have any interior angles greater than :math:`180^{\circ}` 
+| A **concave** has interior angles greater than :math:`180^{\circ}`
+
+.. rubric:: Perimeter and Area
+
+| Area is :math:`length \cdot width` 
+| Perimeter is :math:`length \cdot 2 * width \cdot 2`
+
+.. rubric:: Circumference and Area of a Circle
+
+| Circumference is :math:`2 \pi r` 
+| Area is :math:`\pi r^2` 
+
+
+.. rubric:: text
+
+
 
 
 1.7: Transformations in the Plane
