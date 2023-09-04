@@ -137,7 +137,7 @@ If we want to find the vertex for :math:`\angle 1`, we first check what sides ma
 
 .. rubric:: Solving x from Angle Bisector
 
-.. drawio-image:: diagrams/bisect_angle_algebra.drawio
+.. drawio-image:: diagrams/14-bisect_angle_algebra.drawio
 If :math:`m \angle ABE = 60` and  :math:`m \angle ABD = 4x + 14`, what is x?
 
 Knowing that :math:`\angle ABD` bisects :math:`\angle ABE`:
@@ -204,11 +204,6 @@ For a need to find a missing angle from a pair of the angles mentioned above. Fo
 
 | Circumference is :math:`2 \pi r` 
 | Area is :math:`\pi r^2` 
-
-
-.. rubric:: text
-
-
 
 
 1.7: Transformations in the Plane
