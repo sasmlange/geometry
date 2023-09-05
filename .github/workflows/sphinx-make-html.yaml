@@ -24,7 +24,7 @@ jobs:
           pip install sphinx
           pip install sphinx-book-theme
           pip install sphinxcontrib-drawio
-      - name: Build Sphinx
+      - name: Build HTML
         run: make html
             
       - name: Commit files
@@ -36,3 +36,15 @@ jobs:
               git commit -am "Automatic Sphinx build on $(date)"
               git push -f origin main
           fi
+      - name: Install Latex
+        run: |
+          apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+      
+      - name: Build PDF
+        run: make latexpdf
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: code-coverage-report
+          path: _build/latex/geometry-notes.pdf
