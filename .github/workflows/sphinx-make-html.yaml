@@ -38,7 +38,7 @@ jobs:
           fi
       - name: Install Latex
         run: |
-          sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+          sudo apt-get install -y latexmk
       
       - name: Build PDF
         run: make latexpdf
@@ -46,5 +46,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: code-coverage-report
+          name: pdf
           path: _build/latex/geometry-notes.pdf
