@@ -48,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: pdf
-          path: _build/latex/geometry-notes.pdf
+          path: _build/latex/geometrynotes.pdf
