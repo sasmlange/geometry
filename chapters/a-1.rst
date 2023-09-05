@@ -95,15 +95,15 @@ Formula for finding the midpoint on a line on a coordinate plane:
 
 .. math:: 
 
-    (\frac{x_{1} + x_{2}}{2}, \frac{x_{1} + x_{2}}{2})
+    (\frac{x_{1} + x_{2}}{2}, \frac{y_{1} + y_{2}}{2})
 
 For example for the points (0, 0) and (12, 8):
 
 .. math:: 
     midpoint &= (\frac{0 + 12}{2}, \frac{0 + 8}{2}) \\
-    midpoint &= (6, 2)
+    midpoint &= (6, 4)
 
-(6, 2) is the coordinate for the midpoint.
+(6, 4) is the coordinate for the midpoint.
 
 .. rubric:: Distance Formula
 
@@ -119,9 +119,9 @@ This is used to find the distance between two points on a coordinate plane. This
 | An **acute** angle is an angle that is less than :math:`90^{\circ}`
 | An **obtuse** angle is an angle that is less than :math:`180^{\circ}` and greater than :math:`90^{\circ}`
 | A **right** angle is an angle that is :math:`90^{\circ}`
-| A **side** of an angle is the two rays that for the angle
+| An angle is made up of two **side** or the rays/lines that form the angle
 | A **vertex** is a common endpoint of rays/sides
-| **Congruent angles** are angles that has the same length 
+| **Congruent angles** are angles that has the same measure 
 | An **angle bisector** is a ray that spits an angle into two congruent angles.
 
 .. note:: 
@@ -192,7 +192,7 @@ For a need to find a missing angle from a pair of the angles mentioned above. Fo
 | A **decagon** has 10 sides and angles.
 | A **dodecagon** has 12 sides and angles.
 | All sides and angles of a **regular polygon** are the same.
-| Not all sides and angles of a **regular polygon** are the same.
+| Not all sides and angles of a **irregular polygon** are the same.
 | A **convex** does not have any interior angles greater than :math:`180^{\circ}` 
 | A **concave** has interior angles greater than :math:`180^{\circ}`
 
