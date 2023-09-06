@@ -45,7 +45,7 @@ jobs:
         run: make latexpdf
 
       - name: Upload PDF to Release
-        uses: actions/create-release@latest
+        uses: ncipollo/release-action@v1.13.0
         with:
           tag: ${{ github.event.repository.updated_at}}
           commit: "main"
