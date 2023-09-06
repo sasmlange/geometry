@@ -240,6 +240,12 @@ For a need to find a missing angle from a pair of the angles mentioned above. Fo
 In the figure, we can see that planes make up the three-dimensional figure. We can use the same rules as we did in :ref:`1.1: Points, Lines, and Planes`. For example plane (face) :math:`ABC` meets plane (face) :math:`FAB` at :math:`\overleftrightarrow{AB}` (edge). Edges :math:`\overline{AB}` and :math:`\overline{AD}` meet at vertex :math:`A`.  :math:`\overleftrightarrow{AB}` amd :math:`\overleftrightarrow{DC}` are parallel. :math:`\overleftrightarrow{ED}` amd :math:`\overleftrightarrow{AC}` are skew lines. 
 
 
+.. rubric:: Find the Volume in A Prism
+
+To find the volume in a prism multiply the area of the base with the height.
+
+Example: A circle volume is :math`2 \pi r h`
+
 1.9: Two-Dimensional Representations of Three-Dimensional Figures
 ----------------------------------------------------------------------
 
