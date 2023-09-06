@@ -210,16 +210,43 @@ For a need to find a missing angle from a pair of the angles mentioned above. Fo
 1.7: Transformations in the Plane
 --------------------------------------
 
+**Lesson Skipped**
+
+..
 
 1.8: Three-Dimensional Figures
 -----------------------------------
+
+.. rubric:: Vocabulary
+
+| A **polyhedron** is a three-dimensional figure made up of polygon faces.
+| An **edge** is a line segment where two faces meet. 
+| A **vertex** is where edges meet.
+| A **pyramid** is a three-dimensional figure containing of a base of any shape which determines the name and amount of faces. From each angle, a line rises up to meet at a central point.
+| A **triangular pyramid** is a pyramid with a triangle base.
+| A **pentagonal pyramid** is a pyramid with a pentagon base.
+| A **prism** has a pair of parallel bases which can be any shape. Lines connect the bases at their angles.
+| A  **cone** is a pyramid with a circular base.
+| A **cylinder** is a prism with a circular base.
+| An **intersecting** part of a three-dimensional shape is when lines that make the figure up meet.
+| **Parallel lines** are on the same plane and never meet
+| **Skew lines** never intersect but are on the same plane.
+| A **face** is a flat surface of a three-dimensional figure.
+
+.. rubric:: Examples
+
+.. drawio-image:: diagrams/18-tri_planes.drawio
+
+In the figure, we can see that planes make up the three-dimensional figure. We can use the same rules as we did in :ref:`1.1: Points, Lines, and Planes`. For example plane (face) :math:`ABC` meets plane (face) :math:`FAB` at :math:`\overleftrightarrow{AB}` (edge). Edges :math:`\overline{AB}` and :math:`\overline{AD}` meet at vertex :math:`A`.  :math:`\overleftrightarrow{AB}` amd :math:`\overleftrightarrow{DC}` are parallel. :math:`\overleftrightarrow{ED}` amd :math:`\overleftrightarrow{AC}` are skew lines. 
 
 
 1.9: Two-Dimensional Representations of Three-Dimensional Figures
 ----------------------------------------------------------------------
 
+**Lesson Skipped**
 
 1.10: Precision and Accuracy
 ---------------------------------
 
+**Lesson Skipped**
 

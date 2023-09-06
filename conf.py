@@ -29,7 +29,8 @@ author = 'Max Lange'
 # ones.
 extensions = [
     "sphinx.ext.mathjax",
-    "sphinxcontrib.drawio"
+    "sphinxcontrib.drawio",
+    'sphinx.ext.autosectionlabel',
 ]
 
 drawio_default_export_scale = 150
