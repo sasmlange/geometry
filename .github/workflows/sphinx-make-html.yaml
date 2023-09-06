@@ -46,10 +46,7 @@ jobs:
 
       - name: Upload PDF to Release
         uses: actions/create-release@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.event.repository.updated_at}}
-          release_name: ${{ github.event.repository.updated_at}}
-          draft: false
-          prerelease: false
+          tag: ${{ github.event.repository.updated_at}}
+          commit: "main"
+          artifacts: "_build/latex/geometrynotes.pdf"
