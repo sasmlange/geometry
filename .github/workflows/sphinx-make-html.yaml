@@ -51,6 +51,6 @@ jobs:
       - name: Upload PDF to Release
         uses: ncipollo/release-action@v1.13.0
         with:
-          tag: $NOW
+          tag: ${{ env.NOW }} 
           commit: "main"
           artifacts: "_build/latex/geometrynotes.pdf"
