@@ -47,6 +47,6 @@ jobs:
       - name: Upload PDF to Release
         uses: ncipollo/release-action@v1.13.0
         with:
-          tag: ${{ github.event.repository.updated_at}}
+          tag: "${{ github.event.repository.updated_at}}"
           commit: "main"
           artifacts: "_build/latex/geometrynotes.pdf"
