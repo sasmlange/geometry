@@ -244,7 +244,24 @@ In the figure, we can see that planes make up the three-dimensional figure. We c
 
 To find the volume in a prism multiply the area of the base with the height.
 
-Example: A circle volume is :math`2 \pi r h`
+Example: A circle volume is :math:`\pi r^2 h`
+
+.. rubric:: Find the Volume in A Pyrarid
+
+The regular forumla :math:`\frac{1}{3} \cdot base \cdot height`
+
+.. rubric:: Find Surface Area of a Cone
+
+The forumla is :math:`\pi r (r + hypotenuse)`
+
+.. rubric:: Find Surface Area of a Cylinder
+
+The formula is :math:`2 \pi rh`
+
+.. tip::
+
+    Its just circumfrence times height.
+
 
 1.9: Two-Dimensional Representations of Three-Dimensional Figures
 ----------------------------------------------------------------------
