@@ -4,6 +4,26 @@ Chapter 2: Logical Arguments and Line Relationships
 2.1: Conjectures and Counterexamples
 -----------------------------------------
 
+.. rubric:: Vocablary
+
+| A **conterexample** statement where the hypothesis is the same but conclusion is different.
+| **Inductive reasoning** is reasoning with examples
+| A **conjecture** is a concluding statement based on inductive reasoning 
+
+.. rubric:: Example of Conterexample
+
+| Hypothesis: The lost planet is round.
+| Conclusion: The planet is Neptune as Neptune is round.
+| Conterexample: Mars is also round.
+
+Since a conterexample was provided, the conclusion is false.
+
+.. rubric:: Example of Conjectures
+
+Think about this pattern: *0, 5, 10, 15, 20*
+
+A conclusion or conjecture can be made that it incresses by 5.
+
 
 2.2: Statements, Conditionals, and Biconditionals
 ------------------------------------------------------
