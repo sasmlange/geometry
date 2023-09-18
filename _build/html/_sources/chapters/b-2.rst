@@ -28,6 +28,45 @@ A conclusion or conjecture can be made that it incresses by 5.
 2.2: Statements, Conditionals, and Biconditionals
 ------------------------------------------------------
 
+.. rubric:: Vocablary
+
+| A **truth value** is whether or not a statement is true based on the given information.
+| A **truth table** is a table where truth values are organized.
+
+.. rubric:: Logical Operators
+
+.. list-table:: 
+    :header-rows: 1
+
+    * - Name
+      - Symbol
+    * - `^`
+      - And
+    * - `v`
+      - Or
+    * - `~`
+      - Not 
+    
+.. rubric:: Truth Tables
+
+| a: Mars is red
+| b: Mars is blue
+
+
+.. list-table::
+   :header-rows: 1
+
+   * - a
+     - b
+     - a v b
+     - a ^ b
+     - ~b
+   * - true
+     - false
+     - true
+     - false
+     - false
+
 
 2.3: Deductive Reasoning
 -----------------------------
