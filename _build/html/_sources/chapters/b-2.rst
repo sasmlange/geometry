@@ -70,6 +70,52 @@ A conclusion or conjecture can be made that it incresses by 5.
 
 2.3: Deductive Reasoning
 -----------------------------
+.. rubric:: Vocabulary
+
+| A **conditional statement** is written in a if then statement. 
+| Switching the if and then makes it a **converse** of the statement. 
+| An **inverse** of a statement is when you take the oposite of the if and the opposite of the then.
+| A **contrapositive** is the inverse of the converse.
+
+.. rubric:: Python Examples of Vocabulary
+
+.. code-block:: python
+
+  # fact
+  a = True
+  b = False
+
+  # conditional statement
+  if a:
+    b = False
+
+  # converse
+  if not b:
+    a = True
+
+  # inverse
+  if not a:
+    b = not False # aka True
+  
+  # contrapositive
+  if b:
+    a = not True # aka False
+
+All of these ifs produce the same result!!!
+
+.. rubric:: Identifying the Hypothesis and Conclusion
+
+The hypothesis is the statement that follows the if while the conclusion follows the then. 
+
+**For example:**
+
+.. code-block:: python
+
+  if a:
+    b = True
+
+In this example :code:`a` or :code:`a == True` is the hypothesis and :code:`b = True` is the conclusion.
+
 
 
 2.4: Writing Proofs
