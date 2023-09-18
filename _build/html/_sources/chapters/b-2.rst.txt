@@ -121,6 +121,18 @@ In this example :code:`a` or :code:`a == True` is the hypothesis and :code:`b = 
 2.4: Writing Proofs
 ------------------------
 
+.. rubric:: Vocablary
+
+| An **axiom** is a statament that is accwepted without proof. 
+| An **postual** is the same as an axiom. 
+
+.. rubric:: Proofs
+
+.. list-table::
+  :header-rows: 1
+
+  * - Name
+    - Description
 
 2.5: Proving Segment Relationships
 ---------------------------------------
