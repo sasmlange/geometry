@@ -151,15 +151,11 @@ This is a valid conclusion made using the Law of Detachment.
 
 .. rubric:: Proofs
 
-#. Though any two points, there is one line.
-#. Though any three points, there is one plane.
-#. A line contains at least two points
-#. A plane contains as least three points
-#. If two points of a line are in a plane, the line is on the line.
+.. list-table::
+  :header-rows: 1
 
-.. drawio-image:: diagrams/25-proofs.drawio
-
-
+  * - Name
+    - Description
 
 
 2.6: Proving Angle Relationships
