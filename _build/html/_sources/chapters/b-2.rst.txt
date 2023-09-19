@@ -4,7 +4,7 @@ Chapter 2: Logical Arguments and Line Relationships
 2.1: Conjectures and Counterexamples
 -----------------------------------------
 
-.. rubric:: Vocablary
+.. rubric:: Vocabulary
 
 | A **conterexample** statement where the hypothesis is the same but conclusion is different.
 | **Inductive reasoning** is reasoning with examples
@@ -28,7 +28,7 @@ A conclusion or conjecture can be made that it incresses by 5.
 2.2: Statements, Conditionals, and Biconditionals
 ------------------------------------------------------
 
-.. rubric:: Vocablary
+.. rubric:: Vocabulary
 
 | A **truth value** is whether or not a statement is true based on the given information.
 | A **truth table** is a table where truth values are organized.
@@ -68,7 +68,7 @@ A conclusion or conjecture can be made that it incresses by 5.
      - false
 
 
-2.3: Deductive Reasoning
+2.3: conditional Statements
 -----------------------------
 .. rubric:: Vocabulary
 
@@ -118,24 +118,48 @@ In this example :code:`a` or :code:`a == True` is the hypothesis and :code:`b = 
 
 
 
-2.4: Writing Proofs
-------------------------
+2.4: Deductive Reasoning
+---------------------------
 
-.. rubric:: Vocablary
+.. rubric:: Vocabulary
 
-| An **axiom** is a statament that is accwepted without proof. 
+| **Deductive reasoning** is when a logical conclusion is reached from using facts, rules, definitions, or properties.
+| The **Law of Detachment** is a valid form of deductive reasoning with an if then format and a conclusion.
+| The **Law of Syllogism** is a valid form of deductive reasoning which can be used to pice together two or more statements in which one has a conclusion of the other hypothesis.
+
+.. rubric:: Examples
+
+| **Given:** If you ride to school then you have a bike. Bob rides to school.
+| **Conclusion:** Bob has a bike
+
+This is a valid conclusion made using the Law of Detachment.
+
+.. note::
+
+  If the converse of the given hypothesis was given, then the conclusion would be invalid.  This is because the fact code :code:`Bob rides to school` would address the conclusion instead of the hypothesis.
+
+
+2.5: Postulate and Paragraph Proof
+---------------------------------------
+
+
+
+.. rubric:: Vocabulary
+
+| An **axiom** is a statement that is accepted without proof. 
 | An **postual** is the same as an axiom. 
 
 .. rubric:: Proofs
 
-.. list-table::
-  :header-rows: 1
+#. Though any two points, there is one line.
+#. Though any three points, there is one plane.
+#. A line contains at least two points
+#. A plane contains as least three points
+#. If two points of a line are in a plane, the line is on the line.
 
-  * - Name
-    - Description
+.. drawio-image:: diagrams/25-proofs.drawio
 
-2.5: Proving Segment Relationships
----------------------------------------
+
 
 
 2.6: Proving Angle Relationships

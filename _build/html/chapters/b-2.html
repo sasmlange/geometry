@@ -1,18 +1,20 @@
+
 <!DOCTYPE html>
 
-<html lang="en" data-content_root="../">
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Chapter 2: Logical Arguments and Line Relationships &#8212; Geometry Notes</title>
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=470af3d7" />
-    <link rel="stylesheet" type="text/css" href="../_static/drawio.css?v=25a831d2" />
-    <link rel="stylesheet" type="text/css" href="../_static/rubric.css?v=4ed19dda" />
-    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/drawio.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/rubric.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -113,7 +115,7 @@
     </form>
     </div>
 </div>
-<script>document.getElementById('searchbox').style.display = "block"</script>
+<script>$('#searchbox').show(0);</script>
         </div>
     </nav>
 </div>
@@ -146,10 +148,10 @@
           <div class="body" role="main">
             
   <section id="chapter-2-logical-arguments-and-line-relationships">
-<h1>Chapter 2: Logical Arguments and Line Relationships<a class="headerlink" href="#chapter-2-logical-arguments-and-line-relationships" title="Link to this heading">¶</a></h1>
+<h1>Chapter 2: Logical Arguments and Line Relationships<a class="headerlink" href="#chapter-2-logical-arguments-and-line-relationships" title="Permalink to this headline">¶</a></h1>
 <section id="conjectures-and-counterexamples">
-<h2>2.1: Conjectures and Counterexamples<a class="headerlink" href="#conjectures-and-counterexamples" title="Link to this heading">¶</a></h2>
-<p class="rubric">Vocablary</p>
+<h2>2.1: Conjectures and Counterexamples<a class="headerlink" href="#conjectures-and-counterexamples" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Vocabulary</p>
 <div class="line-block">
 <div class="line">A <strong>conterexample</strong> statement where the hypothesis is the same but conclusion is different.</div>
 <div class="line"><strong>Inductive reasoning</strong> is reasoning with examples</div>
@@ -167,14 +169,18 @@
 <p>A conclusion or conjecture can be made that it incresses by 5.</p>
 </section>
 <section id="statements-conditionals-and-biconditionals">
-<h2>2.2: Statements, Conditionals, and Biconditionals<a class="headerlink" href="#statements-conditionals-and-biconditionals" title="Link to this heading">¶</a></h2>
-<p class="rubric">Vocablary</p>
+<h2>2.2: Statements, Conditionals, and Biconditionals<a class="headerlink" href="#statements-conditionals-and-biconditionals" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Vocabulary</p>
 <div class="line-block">
 <div class="line">A <strong>truth value</strong> is whether or not a statement is true based on the given information.</div>
 <div class="line">A <strong>truth table</strong> is a table where truth values are organized.</div>
 </div>
 <p class="rubric">Logical Operators</p>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Symbol</p></th>
@@ -198,6 +204,13 @@
 <div class="line">b: Mars is blue</div>
 </div>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>a</p></th>
 <th class="head"><p>b</p></th>
@@ -216,8 +229,8 @@
 </tbody>
 </table>
 </section>
-<section id="deductive-reasoning">
-<h2>2.3: Deductive Reasoning<a class="headerlink" href="#deductive-reasoning" title="Link to this heading">¶</a></h2>
+<section id="conditional-statements">
+<h2>2.3: conditional Statements<a class="headerlink" href="#conditional-statements" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Vocabulary</p>
 <div class="line-block">
 <div class="line">A <strong>conditional statement</strong> is written in a if then statement.</div>
@@ -257,32 +270,55 @@
 </div>
 <p>In this example <code class="code docutils literal notranslate"><span class="pre">a</span></code> or <code class="code docutils literal notranslate"><span class="pre">a</span> <span class="pre">==</span> <span class="pre">True</span></code> is the hypothesis and <code class="code docutils literal notranslate"><span class="pre">b</span> <span class="pre">=</span> <span class="pre">True</span></code> is the conclusion.</p>
 </section>
-<section id="writing-proofs">
-<h2>2.4: Writing Proofs<a class="headerlink" href="#writing-proofs" title="Link to this heading">¶</a></h2>
-<p class="rubric">Vocablary</p>
+<section id="deductive-reasoning">
+<h2>2.4: Deductive Reasoning<a class="headerlink" href="#deductive-reasoning" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Vocabulary</p>
 <div class="line-block">
-<div class="line">An <strong>axiom</strong> is a statament that is accwepted without proof.</div>
+<div class="line"><strong>Deductive reasoning</strong> is when a logical conclusion is reached from using facts, rules, definitions, or properties.</div>
+<div class="line">The <strong>Law of Detachment</strong> is a valid form of deductive reasoning with an if then format and a conclusion.</div>
+<div class="line">The <strong>Law of Syllogism</strong> is a valid form of deductive reasoning which can be used to pice together two or more statements in which one has a conclusion of the other hypothesis.</div>
+</div>
+<p class="rubric">Examples</p>
+<div class="line-block">
+<div class="line"><strong>Given:</strong> If you ride to school then you have a bike. Bob rides to school.</div>
+<div class="line"><strong>Conclusion:</strong> Bob has a bike</div>
+</div>
+<p>This is a valid conclusion made using the Law of Detachment.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the converse of the given hypothesis was given, then the conclusion would be invalid.  This is because the fact code <code class="code docutils literal notranslate"><span class="pre">Bob</span> <span class="pre">rides</span> <span class="pre">to</span> <span class="pre">school</span></code> would address the conclusion instead of the hypothesis.</p>
+</div>
+</section>
+<section id="postulate-and-paragraph-proof">
+<h2>2.5: Postulate and Paragraph Proof<a class="headerlink" href="#postulate-and-paragraph-proof" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line">An <strong>axiom</strong> is a statement that is accepted without proof.</div>
 <div class="line">An <strong>postual</strong> is the same as an axiom.</div>
 </div>
 <p class="rubric">Proofs</p>
-</section>
-<section id="proving-segment-relationships">
-<h2>2.5: Proving Segment Relationships<a class="headerlink" href="#proving-segment-relationships" title="Link to this heading">¶</a></h2>
-</section>
+<ol class="arabic simple">
+<li><p>Though any two points, there is one line.</p></li>
+<li><p>Though any three points, there is one plane.</p></li>
+<li><p>A line contains at least two points</p></li>
+<li><p>A plane contains as least three points</p></li>
+<li><p>If two points of a line are in a plane, the line is on the line.</p></li>
+</ol>
+<img alt="../_images/25-proofs.svg" class="drawio" src="../_images/25-proofs.svg" /></section>
 <section id="proving-angle-relationships">
-<h2>2.6: Proving Angle Relationships<a class="headerlink" href="#proving-angle-relationships" title="Link to this heading">¶</a></h2>
+<h2>2.6: Proving Angle Relationships<a class="headerlink" href="#proving-angle-relationships" title="Permalink to this headline">¶</a></h2>
 </section>
 <section id="parallel-lines-and-transversals">
-<h2>2.7: Parallel Lines and Transversals<a class="headerlink" href="#parallel-lines-and-transversals" title="Link to this heading">¶</a></h2>
+<h2>2.7: Parallel Lines and Transversals<a class="headerlink" href="#parallel-lines-and-transversals" title="Permalink to this headline">¶</a></h2>
 </section>
 <section id="slope-and-equations-of-lines">
-<h2>2.8: Slope and Equations of Lines<a class="headerlink" href="#slope-and-equations-of-lines" title="Link to this heading">¶</a></h2>
+<h2>2.8: Slope and Equations of Lines<a class="headerlink" href="#slope-and-equations-of-lines" title="Permalink to this headline">¶</a></h2>
 </section>
 <section id="proving-lines-parallel">
-<h2>2.9: Proving Lines Parallel<a class="headerlink" href="#proving-lines-parallel" title="Link to this heading">¶</a></h2>
+<h2>2.9: Proving Lines Parallel<a class="headerlink" href="#proving-lines-parallel" title="Permalink to this headline">¶</a></h2>
 </section>
 <section id="perpendiculars-and-distance">
-<h2>2.10: Perpendiculars and Distance<a class="headerlink" href="#perpendiculars-and-distance" title="Link to this heading">¶</a></h2>
+<h2>2.10: Perpendiculars and Distance<a class="headerlink" href="#perpendiculars-and-distance" title="Permalink to this headline">¶</a></h2>
 </section>
 </section>
 
@@ -303,9 +339,9 @@
 <li><a class="reference internal" href="#">Chapter 2: Logical Arguments and Line Relationships</a><ul>
 <li><a class="reference internal" href="#conjectures-and-counterexamples">2.1: Conjectures and Counterexamples</a></li>
 <li><a class="reference internal" href="#statements-conditionals-and-biconditionals">2.2: Statements, Conditionals, and Biconditionals</a></li>
-<li><a class="reference internal" href="#deductive-reasoning">2.3: Deductive Reasoning</a></li>
-<li><a class="reference internal" href="#writing-proofs">2.4: Writing Proofs</a></li>
-<li><a class="reference internal" href="#proving-segment-relationships">2.5: Proving Segment Relationships</a></li>
+<li><a class="reference internal" href="#conditional-statements">2.3: conditional Statements</a></li>
+<li><a class="reference internal" href="#deductive-reasoning">2.4: Deductive Reasoning</a></li>
+<li><a class="reference internal" href="#postulate-and-paragraph-proof">2.5: Postulate and Paragraph Proof</a></li>
 <li><a class="reference internal" href="#proving-angle-relationships">2.6: Proving Angle Relationships</a></li>
 <li><a class="reference internal" href="#parallel-lines-and-transversals">2.7: Parallel Lines and Transversals</a></li>
 <li><a class="reference internal" href="#slope-and-equations-of-lines">2.8: Slope and Equations of Lines</a></li>
@@ -340,8 +376,8 @@
 
 
     <div class="footer" role="contentinfo">
-    &#169; Copyright 2023, Max Lange.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+        &#169; Copyright 2023, Max Lange.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
     </div>
 
 <p id="theme_credit">Styled using the <a href="https://github.com/piccolo-orm/piccolo_theme">Piccolo Theme</a></p>

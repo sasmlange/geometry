@@ -148,14 +148,19 @@ This is a valid conclusion made using the Law of Detachment.
 
 | An **axiom** is a statement that is accepted without proof. 
 | An **postual** is the same as an axiom. 
+| A **paragraph proof** is a paragraph to explain why a conjecture is true. 
 
 .. rubric:: Proofs
 
-.. list-table::
-  :header-rows: 1
+#. Though any two points, there is one line.
+#. Though any three points, there is one plane.
+#. A line contains at least two points
+#. A plane contains as least three points
+#. If two points of a line are in a plane, the line is on the line.
 
-  * - Name
-    - Description
+.. drawio-image:: diagrams/25-proofs.drawio
+
+
 
 
 2.6: Proving Angle Relationships
