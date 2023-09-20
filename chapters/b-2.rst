@@ -163,8 +163,57 @@ This is a valid conclusion made using the Law of Detachment.
 
 
 
-2.6: Proving Angle Relationships
+2.6: Algebraic Proof
 -------------------------------------
+
+.. rubric:: Vocabulary
+
+| The **property of equality** states that if the same operation is conducted on both sides of an equation on the same number, then both sides of an equations are equal.
+| The **addition property of equality** states that if a number is added to both sides of an equation, then both sides of an equation are equal.
+| The **subtraction property of equality** states that if a number is subtraction from both sides of an equation then both sides of an equation are equal.
+| The **multiplication property of equality** states that if a number is multiplied to both sides of an equation, then both sides of the equation remain equal.
+| The **division property of equality** states that if both sides of an equation are divided by the same number, then both sides of the equation remain equal.
+| The **symmetric property of equality** states that an equation can be flipped
+| The **transitive property of equality** states that sates that if two equations contain a common variable, they can be joined by the common variable.
+| The **substitution property of equality** states that a value can be replaced by its alterative value 
+| The **distributive property** states that a value being multiplied on a sum of difference can be multiplied to each individual number.  
+| The **two-column proof** is a proof organized into two columns, statements and reasons.
+
+.. rubric:: Example of Two-Column Proof
+
+**Given equation to solve:**
+
+.. math::
+
+  \frac{5(x - 2) + 7}{12} = 7
+
+To write this in two column format, you need to specify every step for finding *x* aa.
+
+.. list-table:: 
+  :header-rows: 1
+
+  * - Statement
+    - Reason
+  
+  * - :math:`\frac{5(x - 2) + 7}{12} = 7` 
+    - Given
+  
+  * - :math:`5(x - 2) + 7 = 84` 
+    - Multiplication Property of Equality
+  
+  * - :math:`5(x - 2) = 77` 
+    - Subtraction Property of Equality
+  
+  * - :math:`5x - 10 = 77`
+    - Distributive Property
+  
+  * - :math:`5x = 87`
+    -  Addition Property of Equality
+  
+  * - :math:`x = 17.4`
+    - Division Property of Equality
+  
+
 
 
 2.7: Parallel Lines and Transversals
