@@ -50,7 +50,7 @@ A conclusion or conjecture can be made that it incresses by 5.
 .. rubric:: Truth Tables
 
 | a: Mars is red
-| b: Mars is blue
+| b: Neptune is green
 
 
 .. list-table::
@@ -181,11 +181,9 @@ This is a valid conclusion made using the Law of Detachment.
 
 .. rubric:: Example of Two-Column Proof
 
-**Given equation to solve:**
+**Given:** :math:`frac{5(x - 2) + 7}{12} = 7` 
 
-.. math::
-
-  \frac{5(x - 2) + 7}{12} = 7
+**Prove:** :math:`x = 17.4` 
 
 To write this in two column format, you need to specify every step for finding *x* aa.
 
@@ -216,13 +214,26 @@ To write this in two column format, you need to specify every step for finding *
 
 
 
-2.7: Parallel Lines and Transversals
+2.7: Proving Segment Relationships
 -----------------------------------------
 
+.. rubric:: Vocabulary
 
-2.8: Slope and Equations of Lines
+| The **ruler postulate** states that a point on a line can be put into one to one comparison with real life numbers.
+| The **segment addition postulate** states that if a point is in the middle of two points, then the length from one point to the point in the middle plus the other point equals the distance between the two points.
+| The **reflexive property of congruence** states that a line segment is congruent to itself.
+| The **symmetric property of congruence** states that it is possible can flip an equation.
+| The **transitive property of congruence** states that if a equation has a common side, they can be joined.
+
+
+2.8: Proving Angel Relationships
 --------------------------------------
 
+.. rubric:: Vocabulary
+
+| The **definition of congruent angles** states that perpendicular lines form a :math:`90^\circle` angle.
+| The **definition of supplementary angles** states that supplementary angles form a :math:`180^\circle`
+| The **definition of complementary angles** states that complementary angles form a :math:`90^\circle`
 
 2.9: Proving Lines Parallel
 --------------------------------
