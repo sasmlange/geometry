@@ -230,9 +230,9 @@ To write this in two column format, you need to specify every step for finding *
 
 .. rubric:: Vocabulary
 
-| The **definition of congruent angles** states that perpendicular lines form a :math:`90^\circle` angle.
-| The **definition of supplementary angles** states that supplementary angles form a :math:`180^\circle`
-| The **definition of complementary angles** states that complementary angles form a :math:`90^\circle`
+| The **definition of congruent angles** states that perpendicular lines form a :math:`90^{\circ}` angle.
+| The **definition of supplementary angles** states that supplementary angles form a :math:`180^{\circ}`
+| The **definition of complementary angles** states that complementary angles form a :math:`90^{\circ}`
 
 2.9: Proving Lines Parallel
 --------------------------------
