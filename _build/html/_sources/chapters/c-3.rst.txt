@@ -1,8 +1,10 @@
-Chapter 3: Rigid Transformations and Symmetry 
+Parallel and Perpendicular Lines
 ====================================================
 
-3.1: Reflections
----------------------
+3.1: Parallel Lines and Transversals
+--------------------------------------
+
+.. drawio:: diagrams/31-transversals.drawio
 
 
 3.2: Translations
