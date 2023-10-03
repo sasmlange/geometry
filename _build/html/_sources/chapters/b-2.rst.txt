@@ -221,7 +221,7 @@ To write this in two column format, you need to specify every step for finding *
 
 | The **reflexive property of congruence** states that a line segment is congruent to itself.
 | The **symetric property of congruence** states that if a segment is congruent to another segment, the other segment is congruent to that segment.
-| The **transitive property of congruence** states that a line segemnt that is conguent to another can be replacedd by that segment.
+| The **transitive property of congruence** states that a line segment that is congruent to another can be replaced by that segment.
 | The **ruler postulate** states that points can be given numbers. 
 | The **segment adddition postulate** states that if three points are colinner, The two smaller distances can be added up to form the bigger distence. 
 
