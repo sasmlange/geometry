@@ -1,4 +1,4 @@
-Parallel and Perpendicular Lines
+Chapter 3: Parallel and Perpendicular Lines
 ====================================================
 
 3.1: Parallel Lines and Transversal
@@ -6,22 +6,28 @@ Parallel and Perpendicular Lines
 
 .. rubric:: Vocabulary
 
-**Parallel lines** never intersect.
-A **transversal** goes though two parallel lines.
-**Corresponding angles** are both on the same side of separate parallel lines and on the same side of the transversal.
-**Vertical angle** is when opposite angles formed when two lines intersect, always congruent.
-**Alternate exterior angles** are on the oposite side of separate parallel lines and on the oposite side of the transversal. They are always on the outside.
-**Alternate interior angles** are on the oposite side of separate parallel lines and on the oposite side of the transversal. They are always on the inside.
-**Same side interior angles** are on the inside angles of separate parallel lines and on the same side of the transversal.
-**Same side exterior angles** are on the outside angles of separate parallel lines and on the same side of the transversal.
+| **Parallel lines** never intersect.
+| A **transversal** goes though two parallel lines.
+| **Corresponding angles** are both on the same side of separate parallel lines and on the same side of the transversal.
+| **Vertical angle** is when opposite angles formed when two lines intersect, always congruent.
+| **Alternate exterior angles** are on the oposite side of separate parallel lines and on the oposite side of the transversal. They are always on the outside.
+| **Alternate interior angles** are on the oposite side of separate parallel lines and on the oposite side of the transversal. They are always on the inside.
+| **Same side interior angles** are on the inside angles of separate parallel lines and on the same side of the transversal.
+| **Same side exterior angles** are on the outside angles of separate parallel lines and on the same side of the transversal.
 
 .. drawio-image:: diagrams/31-transversal.drawio
 
 :math:`\angle 1` and :math:`\angle 5` are corresponding angles. :math:`\angle 1` and :math:`\angle 4` are vertical angles. :math:`\angle 1` and :math:`\angle 8` are alternate exterior angles. :math:`\angle 4` and :math:`\angle 5` are alternate interior angles. The previous angles were congruent. The following are supplementary. :math:`\angle 3` and :math:`\angle 5` are same side interior angles. :math:`\angle 1` and :math:`\angle 7` are same side exterior angles.  
 
-3.2: Translations
-----------------------
+3.2: Angles and parallel lines
+--------------------------------
 
+.. rubric:: Vocabulary
+
+| The **corresponding angle theorem** states that if a transversal goes though two parallel lines, then it it's corresponding angles are congruent. 
+| The **converse corresponding angle theorem** states if 2 lines and a transversal form corresponding angles, then the lines are parallel.
+| The **transitive property of congruence** states that a line segment that is congruent to another can be replaced by that segment.
+| The **transitive property of equality** states that sates that if two equations contain a common variable, they can be joined by the common variable.
 
 3.3: Rotations
 -------------------
