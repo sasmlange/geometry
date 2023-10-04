@@ -29,8 +29,24 @@ Chapter 3: Parallel and Perpendicular Lines
 | The **transitive property of congruence** states that a line segment that is congruent to another can be replaced by that segment.
 | The **transitive property of equality** states that sates that if two equations contain a common variable, they can be joined by the common variable.
 
-3.3: Rotations
--------------------
+3.3: Slopes of lines
+----------------------
+
+.. rubric:: Vocabulary
+
+| The **slope** of a line is the steepness of the line.
+| **Parallel lines** are two lines that never meet and have the same slope. 
+| **Perpendicular lines** intersect at :math:`90^{\circ}` angle and have oposite reciprocal slopes.
+| The **oposite reciprocal** is when you multiply the reciprocal of a number by :math:`-1`.
+ 
+
+.. note:: 
+
+    Any number multiplied by it oposite reciprocal will result in :math:`-1` 
+
+.. rubric:: Finding the Slope of a Perpendicular Line
+
+Example: If :math:`y = \frac{1}{2} x - 123` then the perpendicular line slope would be :math:`-\frac{2}{1}` or :math:`-2`.
 
 
 3.4: Compositions of Transformations
