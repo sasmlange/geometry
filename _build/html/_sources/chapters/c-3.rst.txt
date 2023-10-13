@@ -77,7 +77,7 @@ The shortcut is:
 
 .. math::
 
-    \frac{|c – c1|}{sqrt(a^2 + b^2)}
+    \frac{|c - c1|}{sqrt(a^2 + b^2)}
 
 When seen in :math:`ax + bx = c`
 
@@ -95,6 +95,12 @@ When seen in :math:`y = mx +b`:
 #. Find the point the perpendicular line intersects the line using a system of equations
 #. Find the distence beween the the points with the distance formula
 
+.. rubric:: Finding Distence Between a Line and a Point (shortcut)
 
+.. math::
 
+    \frac{ax + by + c}{\sqrt{a^2 + b^2}}
 
+x and y are the coordinates of point.
+
+This works for :math:`ax + bx = c`
