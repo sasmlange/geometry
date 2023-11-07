@@ -6,6 +6,11 @@ p.rubric {
     font-size: 1.25rem !important;
 }
 
+img.drawio{
+  background-color: white; 
+}
+
+
 .highlight {
     background-color: yellow;
 }

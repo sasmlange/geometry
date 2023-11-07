@@ -49,11 +49,58 @@ Chapter 3: Parallel and Perpendicular Lines
 Example: If :math:`y = \frac{1}{2} x - 123` then the perpendicular line slope would be :math:`-\frac{2}{1}` or :math:`-2`.
 
 
-3.4: Compositions of Transformations
+3.4: Equations of lines
 -----------------------------------------
 
+.. rubric:: Vocabulary
 
-3.5: Symmetry
-------------------
+| **Slope intercept form** is when a liner equation is written in :math:`y=mx+b`
+| **Point slope form** is when a liner equation is written in :math:`y - y_1 = m(x - x_1)`
+
+3.5: Proving lines parallel
+------------------------------
+
+See: 3.2: Parallel Lines and Transversal
+
+3.6: Perpendiculars and Distance
+----------------------------------
+
+.. rubric:: Finding Distence Between Parallel Lines (long)
+
+#. Find a perpendicular line to the parallel lines
+#. Find the point the transversal intersects each parallel line using a system of equations
+#. Find the distence beween the the points with the distance formula
+
+.. rubric:: Finding Distence Between Parallel Lines (shortcut)
+
+The shortcut is:
+
+.. math::
+
+    \frac{|c - c1|}{\sqrt(a^2 + b^2)}
+
+When seen in :math:`ax + bx = c`
+
+When seen in :math:`y = mx +b`:
+
+.. math::
+
+    d = \frac{|c_2 - c_1|}{\sqrt{1 + m^2}}
 
 
+
+.. rubric:: Finding Distence Between a Line and a Point (long)
+
+#. Find a perpendicular line to the parallel lines that passes though the point
+#. Find the point the perpendicular line intersects the line using a system of equations
+#. Find the distence beween the the points with the distance formula
+
+.. rubric:: Finding Distence Between a Line and a Point (shortcut)
+
+.. math::
+
+    \frac{ax + by + c}{\sqrt{a^2 + b^2}}
+
+x and y are the coordinates of point.
+
+This works for :math:`ax + bx = c`
