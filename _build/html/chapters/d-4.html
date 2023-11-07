@@ -9,10 +9,11 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/basic_mod.css?v=94a554c0" />
     <link rel="stylesheet" type="text/css" href="../_static/drawio.css?v=25a831d2" />
-    <link rel="stylesheet" type="text/css" href="../_static/rubric.css?v=d2f86a81" />
+    <link rel="stylesheet" type="text/css" href="../_static/rubric.css?v=5d2ddbb3" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=888ff710"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <script src="../_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -147,26 +148,88 @@
             
   <section id="chapter-4-triangles-and-congruence">
 <h1>Chapter 4: Triangles and Congruence<a class="headerlink" href="#chapter-4-triangles-and-congruence" title="Link to this heading">¶</a></h1>
+<section id="classifying-triangles">
+<h2>4.1: Classifying triangles<a class="headerlink" href="#classifying-triangles" title="Link to this heading">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line">An <strong>equilateral triangle</strong> is any triangle with three equal sides and angles.</div>
+<div class="line">An <strong>isosceles triangle</strong> is any triangle with two equal sides and two equal angles.</div>
+<div class="line">A <strong>scalene triangle</strong> is any triangle with three unique sides and three unique angles.</div>
+<div class="line">A <strong>right triangle</strong> is any triangle with a right angle.</div>
+<div class="line">An <strong>acute triangle</strong> has all angles less than 90 degrees.</div>
+<div class="line">An <strong>obtuse triangle</strong> has one angle greater than 90 degrees.</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Equal sides means equal angles.</p>
+</div>
+</section>
 <section id="angles-of-triangles">
-<h2>4.1: Angles of Triangles<a class="headerlink" href="#angles-of-triangles" title="Link to this heading">¶</a></h2>
+<h2>4.2: Angles of triangles<a class="headerlink" href="#angles-of-triangles" title="Link to this heading">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line">The <strong>triangle angle-sum theorem</strong> states that all angles in a triangle add to 180 degrees.</div>
+<div class="line">An <strong>exterior angle of an triangle</strong> is the angle created between two lines that make up a triangle.</div>
+<div class="line">A <strong>remote angle</strong> is an angle not adjacent to the exterior angle.</div>
+<div class="line">The <strong>exterior angle theorem</strong> sates that the exterior angle adds up to the sum of the interior angles.</div>
+</div>
+<p class="rubric">Examples</p>
+<img alt="../_images/42-angle_theorems.svg" class="drawio" src="../_images/42-angle_theorems.svg" /><p>The triangle angle-sum theorem states that <span class="math notranslate nohighlight">\(\angle 1\)</span>, <span class="math notranslate nohighlight">\(\angle 2\)</span>, and <span class="math notranslate nohighlight">\(\angle 3\)</span> all add up to 180 degrees. <span class="math notranslate nohighlight">\(\angle 1\)</span> and <span class="math notranslate nohighlight">\(\angle 3\)</span> are the remote angles of <span class="math notranslate nohighlight">\(\angle 4\)</span>, an exterior angle. The exterior angle theorem states the <span class="math notranslate nohighlight">\(m \angle 1 + m \angle 3 = m \angle 4\)</span>.</p>
 </section>
 <section id="congruent-triangles">
-<h2>4.2: Congruent Triangles<a class="headerlink" href="#congruent-triangles" title="Link to this heading">¶</a></h2>
+<h2>4.3: Congruent triangles<a class="headerlink" href="#congruent-triangles" title="Link to this heading">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line"><strong>Congruent figures</strong> have the same size and shape.</div>
+</div>
+<p class="rubric">Writing Congruent Statements</p>
 </section>
 <section id="proving-triangles-congruent-sss-sas">
-<h2>4.3: Proving Triangles Congruent - SSS, SAS<a class="headerlink" href="#proving-triangles-congruent-sss-sas" title="Link to this heading">¶</a></h2>
+<h2>4.4: Proving triangles congruent SSS SAS<a class="headerlink" href="#proving-triangles-congruent-sss-sas" title="Link to this heading">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line"><strong>SSS (Side Side Side)</strong> states that if all sides of a triangle are equal, then the triangles are congruent.</div>
+<div class="line"><strong>SAS (Side Angle Side)</strong> states that that if two sides of a triangle and the interior angle by those sides are equal to another triangle’s side, side and angle, then the triangles are congruent.</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There is no AAA (Angle Angle Angle) or ASS (Angle Side Side).</p>
+</div>
+<p class="rubric">Example</p>
+<img alt="../_images/44-sas_and_sss.svg" class="drawio" src="../_images/44-sas_and_sss.svg" /><p><span class="math notranslate nohighlight">\(\triangle ABC \cong \triangle DEF\)</span> since SAS (<span class="math notranslate nohighlight">\(\overline{AB} \cong \overline{DC}; \overline{CB} \cong \overline{EC}; \angle B \cong \angle C\)</span>) or SSS (<span class="math notranslate nohighlight">\(\overline{AB} \cong \overline{DC}; \overline{CB} \cong \overline{EC}; \overline{CA} \cong \overline{ED}\)</span>).</p>
 </section>
 <section id="proving-triangles-congruent-asa-aas">
-<h2>4.4: Proving Triangles Congruent - ASA, AAS<a class="headerlink" href="#proving-triangles-congruent-asa-aas" title="Link to this heading">¶</a></h2>
-</section>
-<section id="proving-right-triangles-congruent">
-<h2>4.5: Proving Right Triangles Congruent<a class="headerlink" href="#proving-right-triangles-congruent" title="Link to this heading">¶</a></h2>
+<h2>4.5: Proving triangles congruent ASA AAS<a class="headerlink" href="#proving-triangles-congruent-asa-aas" title="Link to this heading">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line"><strong>ASA (Angle Side Angle)</strong> states that if two triangles share a congruent side that touch two congruent angles, then the two triangles are congruent.</div>
+<div class="line"><strong>AAS (Angle Angle Side)</strong> states that if two triangles share a congruent side that both touch one congruent angle and the triangles also has an angle that does not touch the side, then the two triangles are congruent.</div>
+</div>
 </section>
 <section id="isosceles-and-equilateral-triangles">
 <h2>4.6: Isosceles and Equilateral Triangles<a class="headerlink" href="#isosceles-and-equilateral-triangles" title="Link to this heading">¶</a></h2>
+<p class="rubric">Vocabulary</p>
+<div class="line-block">
+<div class="line">An <strong>isosceles triangle</strong> has exactly two congruent sides with two congruent angles.</div>
+<div class="line">An <strong>equilateral triangle</strong> has exactly three congruent sides and angles.</div>
+<div class="line"><a href="#id1"><span class="problematic" id="id2">:highlight:`**CPCTC** states that all sides and angles in two congruent triangles are congruent.`</span></a></div>
+</div>
+<p class="rubric">Congruent Parts</p>
+<img alt="../_images/46-triangle_congruent_parts.svg" class="drawio" src="../_images/46-triangle_congruent_parts.svg" /><p>If <span class="math notranslate nohighlight">\(\triangle ABC\)</span> was an equilateral triangle, then all sides would be congruent. If <span class="math notranslate nohighlight">\(\triangle DEF\)</span> was an isosceles, then <span class="math notranslate nohighlight">\(\overline{DF} \cong \overline{DE}; \angle DFE \cong \angle DEF\)</span>.</p>
+</section>
+<section id="congruence-transformations">
+<h2>4.7: Congruence transformations<a class="headerlink" href="#congruence-transformations" title="Link to this heading">¶</a></h2>
+<p>:)</p>
 </section>
 <section id="triangles-and-coordinate-proof">
-<h2>4.7: Triangles and Coordinate Proof<a class="headerlink" href="#triangles-and-coordinate-proof" title="Link to this heading">¶</a></h2>
+<h2>4.8: Triangles and Coordinate Proof<a class="headerlink" href="#triangles-and-coordinate-proof" title="Link to this heading">¶</a></h2>
+<p><strong>Horary, no vocabulary!</strong></p>
+<p class="rubric">How to identify triangles based on coordinates</p>
+<ol class="arabic simple">
+<li><p>Find the distance between all points using the distance formula, more information in <a class="reference internal" href="a-1.html#line-segments-and-distance"><span class="std std-ref">1.2: Line Segments and Distance</span></a>.</p></li>
+<li><p>Check for equal sides</p></li>
+<li><p>Based on the number of equal sides find what kind of a triangle it is, scalene (no sides are equal), isosceles (two equal sides), or equilateral (three equal sides).</p></li>
+</ol>
 </section>
 </section>
 
@@ -177,21 +240,22 @@
       </div>
     
         <div id="show_right_sidebar">
-            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents<span></a></p>
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&lt;</span><span>Page contents</span></a></p>
         </div>
 
         <div id="right_sidebar">
-            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:<span></a></p>
+            <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
 <li><a class="reference internal" href="#">Chapter 4: Triangles and Congruence</a><ul>
-<li><a class="reference internal" href="#angles-of-triangles">4.1: Angles of Triangles</a></li>
-<li><a class="reference internal" href="#congruent-triangles">4.2: Congruent Triangles</a></li>
-<li><a class="reference internal" href="#proving-triangles-congruent-sss-sas">4.3: Proving Triangles Congruent - SSS, SAS</a></li>
-<li><a class="reference internal" href="#proving-triangles-congruent-asa-aas">4.4: Proving Triangles Congruent - ASA, AAS</a></li>
-<li><a class="reference internal" href="#proving-right-triangles-congruent">4.5: Proving Right Triangles Congruent</a></li>
+<li><a class="reference internal" href="#classifying-triangles">4.1: Classifying triangles</a></li>
+<li><a class="reference internal" href="#angles-of-triangles">4.2: Angles of triangles</a></li>
+<li><a class="reference internal" href="#congruent-triangles">4.3: Congruent triangles</a></li>
+<li><a class="reference internal" href="#proving-triangles-congruent-sss-sas">4.4: Proving triangles congruent SSS SAS</a></li>
+<li><a class="reference internal" href="#proving-triangles-congruent-asa-aas">4.5: Proving triangles congruent ASA AAS</a></li>
 <li><a class="reference internal" href="#isosceles-and-equilateral-triangles">4.6: Isosceles and Equilateral Triangles</a></li>
-<li><a class="reference internal" href="#triangles-and-coordinate-proof">4.7: Triangles and Coordinate Proof</a></li>
+<li><a class="reference internal" href="#congruence-transformations">4.7: Congruence transformations</a></li>
+<li><a class="reference internal" href="#triangles-and-coordinate-proof">4.8: Triangles and Coordinate Proof</a></li>
 </ul>
 </li>
 </ul>

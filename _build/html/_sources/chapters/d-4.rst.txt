@@ -1,31 +1,98 @@
 Chapter 4: Triangles and Congruence 
 ==========================================
 
-4.1: Angles of Triangles
+4.1: Classifying triangles
+-----------------------------
+.. rubric:: Vocabulary
+
+| An **equilateral triangle** is any triangle with three equal sides and angles.
+| An **isosceles triangle** is any triangle with two equal sides and two equal angles.
+| A **scalene triangle** is any triangle with three unique sides and three unique angles.
+| A **right triangle** is any triangle with a right angle.
+| An **acute triangle** has all angles less than 90 degrees.
+| An **obtuse triangle** has one angle greater than 90 degrees.
+
+.. note:: 
+
+    Equal sides means equal angles.
+
+
+4.2: Angles of triangles
 -----------------------------
 
+.. rubric:: Vocabulary
 
-4.2: Congruent Triangles
------------------------------
+| The **triangle angle-sum theorem** states that all angles in a triangle add to 180 degrees.
+| An **exterior angle of an triangle** is the angle created between two lines that make up a triangle. 
+| A **remote angle** is an angle not adjacent to the exterior angle. 
+| The **exterior angle theorem** sates that the exterior angle adds up to the sum of the interior angles.
 
+.. rubric:: Examples
 
-4.3: Proving Triangles Congruent - SSS, SAS
+.. drawio-image:: diagrams/42-angle_theorems.drawio
+
+The triangle angle-sum theorem states that :math:`\angle 1`, :math:`\angle 2`, and :math:`\angle 3` all add up to 180 degrees. :math:`\angle 1` and :math:`\angle 3` are the remote angles of :math:`\angle 4`, an exterior angle. The exterior angle theorem states the :math:`m \angle 1 + m \angle 3 = m \angle 4`.
+
+4.3: Congruent triangles
 ------------------------------------------------
+.. rubric:: Vocabulary
+
+| **Congruent figures** have the same size and shape.
+
+.. rubric:: Writing Congruent Statements
 
 
-4.4: Proving Triangles Congruent - ASA, AAS
+
+4.4: Proving triangles congruent SSS SAS
 ------------------------------------------------
+.. rubric:: Vocabulary
 
+| **SSS (Side Side Side)** states that if all sides of a triangle are equal, then the triangles are congruent. 
+| **SAS (Side Angle Side)** states that that if two sides of a triangle and the interior angle by those sides are equal to another triangle's side, side and angle, then the triangles are congruent.
 
-4.5: Proving Right Triangles Congruent
+.. warning:: 
+
+    There is no AAA (Angle Angle Angle) or ASS (Angle Side Side).
+
+.. rubric:: Example
+
+.. drawio-image:: diagrams/44-sas_and_sss.drawio
+
+:math:`\triangle ABC \cong \triangle DEF` since SAS (:math:`\overline{AB} \cong \overline{DC}; \overline{CB} \cong \overline{EC}; \angle B \cong \angle C`) or SSS (:math:`\overline{AB} \cong \overline{DC}; \overline{CB} \cong \overline{EC}; \overline{CA} \cong \overline{ED}`). 
+
+4.5: Proving triangles congruent ASA AAS
 -------------------------------------------
+.. rubric:: Vocabulary
 
+| **ASA (Angle Side Angle)** states that if two triangles share a congruent side that touch two congruent angles, then the two triangles are congruent.
+| **AAS (Angle Angle Side)** states that if two triangles share a congruent side that both touch one congruent angle and the triangles also has an angle that does not touch the side, then the two triangles are congruent.
 
 4.6: Isosceles and Equilateral Triangles
 ---------------------------------------------
+.. rubric:: Vocabulary
+
+| An **isosceles triangle** has exactly two congruent sides with two congruent angles.
+| An **equilateral triangle** has exactly three congruent sides and angles.
+| :highlight:`**CPCTC** states that all sides and angles in two congruent triangles are congruent.`
+
+.. rubric:: Congruent Parts
+
+.. drawio-image:: diagrams/46-triangle_congruent_parts.drawio
+
+If :math:`\triangle ABC` was an equilateral triangle, then all sides would be congruent. If :math:`\triangle DEF` was an isosceles, then :math:`\overline{DF} \cong \overline{DE}; \angle DFE \cong \angle DEF`.
+
+4.7: Congruence transformations
+----------------------------------------
+:)
 
 
-4.7: Triangles and Coordinate Proof
+4.8: Triangles and Coordinate Proof
 ----------------------------------------
 
+**Horary, no vocabulary!**
 
+.. rubric:: How to identify triangles based on coordinates
+
+#. Find the distance between all points using the distance formula, more information in :ref:`1.2: Line Segments and Distance`.
+#. Check for equal sides
+#. Based on the number of equal sides find what kind of a triangle it is, scalene (no sides are equal), isosceles (two equal sides), or equilateral (three equal sides).

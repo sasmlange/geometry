@@ -9,3 +9,8 @@ p.rubric {
 img.drawio{
   background-color: white; 
 }
+
+
+.highlight {
+    background-color: yellow;
+}
