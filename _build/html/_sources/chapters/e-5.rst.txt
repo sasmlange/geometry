@@ -3,10 +3,30 @@ Chapter 5: Relationships in Triangles
 
 5.1: Bisectors of Triangles
 --------------------------------
+.. rubric:: Vocabulary
+
+| A **bisector** splits an angle or segment into two congruent parts.
+| The **angle bisector theorem** states that it is an equal distance from the angle bisector to each side of the angle is equal if the line is perpendicular to the side.
+| The **perpendicular bisector** is the line that bisects a line and is perpendicular to that line.
+| The **perpendicular bisectors theorem** states that if any point on the perpendicular bisector is the same distance from the two base endpoints.
+
+.. rubric:: Angle Bisector Theorem
+
+.. drawio-image:: diagrams/51-angle_bisector.drawio
+
+If :math:`\overrightarrow{AC}` bisects :math:`\angle BAD`, then :math:`\overline{BC} \cong \overline{CD}`.
+
+.. rubric:: Perpendicular Bisectors
+
+.. drawio-image:: diagrams/51-perpendicular_bisector.drawio
+
+:math:`\overleftrightarrow{AC}` is the perpendicular bisector as :math:`\overline{AD} \cong \overline{AB}`. Point A is equal to the distance from point B than to point D. Since :math:`m \angle ACB = 90^\circ`, point C is the midpoint of :math:`\overline{DB}`. 
 
 
 5.2: Medians and Altitudes of Triangles
 --------------------------------------------
+
+.. rubric:: text
 
 
 5.3: Inequalities in One Triangle
