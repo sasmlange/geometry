@@ -43,7 +43,7 @@ If :math:`\overrightarrow{AC}` bisects :math:`\angle BAD`, then :math:`\overline
 
 .. rubric:: How to find The Centroid of a Triangle (long way)?
 
-.. drawio-image:: diagrams/52-centroid_following.drawio
+.. drawio-image:: diagrams/52-centroid_finding.drawio
 
 1. Find the midpoint of a side
 
