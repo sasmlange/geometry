@@ -98,6 +98,6 @@ Last Minute Notes :)
 | The **Centroid Theorem** states that the medians of a triangle intersect at a point that is two thirds of the distance from each vertex to the midpoint of the opposite side. This point is called the centroid.
 | The **Incenter Theorem** states that the angle bisectors of a triangle intersect at a point equidistant from the sides of the triangle.
 The point is called the incenter.
-| The **Incenter Theorem** states that the angle bisectors of a triangle intersect at a point equidistant from the sides of the triangle.
-The point is called the incenter.
+| The **Circumcenter Theorem** states that the perpendicular bisectors of the sides of a triangle intersect at a single point.
+This point is equidistant from the vertices of the triangle and is called the circumcenter.
 
