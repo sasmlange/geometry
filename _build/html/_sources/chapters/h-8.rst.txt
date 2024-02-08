@@ -3,11 +3,36 @@ Chapter 8: Right Triangles and Trigonometry
 
 8.1: Geometric Mean
 ------------------------
+.. rubric:: Vocab
 
+| The **geometric mean** is :math:`\sqrt{a+b}` or :math:`\sqrt[3]{a+b+c}`.
+
+**TODO:** Part 2 of the lesson
 
 8.2: The Pythagorean Theorem and Its Converse
 --------------------------------------------------
+.. rubric:: Vocab
 
+| A **hypotenuse** is the longest side of a right triangle.
+| **Pythagorean theorem** states that :math:`a^2 + b^2 = c^2` (:math:`\sqrt{a^2+b^2}` ) where *a* and *b* represent the two legs of a right triangle and *c* represent the hypotenuse of the triangle. 
+| The **converse of the pythagorean theorem** states that when provided with all the sides of a triangle :math:`a^2 + b^2 = c^2`, *c* representing the longest side, is true, then the triangle is right.
+
+.. rubric:: Pythagorean Inequality Theorems
+
+.. list-table::
+   :header-rows: 1
+
+   * - Inequality
+     - :math:`a^2 + b^2 > c^2`
+     - :math:`a^2 + b^2 = c^2`
+     - :math:`a^2 + b^2 < c^2`
+
+   * - Type
+     - Acute
+     - Right
+     - Obtuse
+
+**TODO:** Prove pythagorean theorem.
 
 8.3: Special Right Triangles
 ---------------------------------
